@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f2f5;
+  font-family: 'Playfair Display', serif;
+}
+
+.u-font {
+  font-family: 'Playfair Display', serif;
+}
+
+.u-width {
+  max-width: 500px;
+  width: 100%;
+}
+
+.gradient {
+  background: linear-gradient(135deg, #4c6ef5, #22b8cf);
+}
+
+.hide {
+  display: none !important;
+  opacity: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+  visibility: hidden !important;
+  transition: all 0.5s ease-in-out !important;
+}
+
+.disable:hover {
+  pointer-events: none !important;
+  cursor: not-allowed !important;
+}
